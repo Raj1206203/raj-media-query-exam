@@ -1,0 +1,210 @@
+:root{
+    --text-white--: #fff;
+    --text-blue--: #134485;
+    --text-yellow--: #FFFF00;
+    --text-gray--: #948b8b;
+    --text-black--: #000;
+
+    --background-back--: #000;
+    --background-blue--: #192872;
+    --background-gray--: #1f1e2b;
+}   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+
+.w-100{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.align-items-center{
+    align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+/* header section start  */
+html body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header .navbar{
+    background-color: #000;
+    color: var(--text-white--);
+    margin: 0 15px;
+}
+header .navbar h2 a{
+    font-size: 2rem;
+}
+header .navbar nav ul li a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 15px;
+    padding: 15px 0; 
+}
+header .navbar nav ul li:hover a{
+    color: var(--text-blue--);
+}
+header .navbar nav ul li a span{
+    color: var(--text-yellow--)
+}
+header .navbar .gender {
+    font-size: 2rem;
+    background-color: var(--background-blue--);
+}
+header .navbar .gender li a{
+    color: var(--text-white--);
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+}
+header .navbar .gender li:hover a{
+    color: var(--text-black--);
+}
+header .navbar ul li:hover a{
+    color: var(--text-white--);
+}
+header .sub-bar{
+    position: relative;
+    color: var(--text-gray--);
+    margin: 15px;
+}
+header .sub-bar ul li a{
+    margin: 0 15px;
+}
+header .sub-bar ul li a .fa-solid{
+    position: absolute;
+    right: 10%;
+}
+
+/* header section end  */
+
+/* hero section start  */
+.hero{
+    position: relative;
+}
+.hero .container .hero-content{
+    background-color: var(--background-gray--);
+}
+.hero .container .hero-content .row .col-6 .shoes-img{
+    align-items: center;
+    align-content: center;
+}
+.hero .container .hero-content .row .col-6 .content{
+    align-items: center;
+    align-content: center;
+}
+.hero .container .hero-content .col-6 h2{
+    color: var(--text-white--);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero .container .hero-content .col-6 h4{
+    color: var(--text-white--);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.hero .container .hero-content .col-6 .btn{
+    color: var(--text-white--);
+    background-color: inherit;
+    padding: 10px;
+    border: rgb(20, 32, 202);
+    border-radius: 20px;
+    border: 3px solid  rgb(20, 32, 202);
+}
+
+/* hero section end  */
+
+/* products section start  */
+.products .products-content{
+    margin-top: 100px;
+    align-items: center;
+    align-content: center;
+}
+.products .products-content h1{
+    font-size: 2rem;
+    color: var(--text-black--);
+}
+.products .products-content h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.products .products-content h4{
+    color: var(--text-gray--);
+    font-size: 1.5rem;
+}
+.products .products-content{
+    color: var(--text-gray--);
+    font-size: 1.2rem;
+}
+
+.products .products-content .product-info h4{
+    color: var(--text-gray--);
+}
+.products .products-content .product-info h2{
+    font-size: 1.5rem;
+    color: var(--text-blue--);
+    margin-top: 10px;
+}
+
+
+/* products section end  */
+
+
+/* footer section start  */
+
+footer .footer-content{
+    margin-top: 100px;
+    color: var(--text-white--);
+    background-color: var(--background-back--);
+    padding: 15px;
+    font-size: 1.2rem;
+}
+footer .footer-content ul li{
+    margin: 0 15px
+}
+
+/* footer section end  */
