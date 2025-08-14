@@ -13,44 +13,50 @@
     <!-- header section start  -->
     <header>
       <div class="container">
-        <div class="navbar d-flex w-100 align-items-center justify-lg-content-between">
+        <div class="navbar d-flex w-100">
+          <nav class="d-flex align-items-center justify-content-between w-100">
           <h2><a href="javascript:void(0)">mojo</a></h2>
-          <nav class="d-flex  d-md-none justify-content-around w-100">
-            <ul class="d-flex">
+          <ul class="d-flex d-md-none">
               <li><a href="javascript:void(0)">Articles</a></li>
               <li><a href="javascript:void(0)">Shop</a></li>
               <li><a href="javascript:void(0)">Magazine</a></li>
               <li><a href="javascript:void(0)">Help</a></li>
-            </ul>
-            <ul class="d-flex">
+          </ul>
+          <ul class="d-flex d-md-none">
               <li><a href="javascript:void(0)">John Doe</a></li>
               <li><a href="javascript:void(0)">Cart(<span>1</span>)</a></li>
-            </ul>
+          </ul>
+          <ul class="gender d-flex d-md-none">
+              <li><a href="javascript:void(0)">Men</a></li>
+              <li><a href="javascript:void(0)">Women</a></li>
+          </ul>
           </nav>
-          <ul class="gender d-md-none d-flex">
-            <li><a href="javascript:void(0)">Men</a></li>
-            <li><a href="javascript:void(0)">Women</a></li>
-          </ul>
           <ul>
-            <li class="togger d-md-block d-lg-none d-xl-none "><a href="javascript:void(0)"><i class="fa-solid fa-bars"></i></a></li>
-          </ul>
-        </div>
-        <div class="sub-bar w-100">
-          <ul class="justify-content-center d-flex w-100">
-            <li><a href="javascript:void(0)">POPULAR</a></li>
-            <li><a href="javascript:void(0)">MOST VIEWED</a></li>
-            <li><a href="javascript:void(0)">NEWEST</a></li>
-            <li><a href="javascript:void(0)">RANDOM</a></li>
-            <li>
-              <a href="javascript:void(0)"
-                ><i class="fa-solid fa-magnifying-glass"></i
-              ></a>
-            </li>
+            <li class="d-none d-md-block"><a href="javascript:void(0)"><i class="fa-solid fa-bars"></i></a></li>
           </ul>
         </div>
       </div>
     </header>
+    
+
     <!-- header section end  -->
+
+    <!-- sub-bar section start  -->
+    <div class="sub-bar w-100">
+      <ul class="justify-content-center d-flex w-100">
+        <li><a href="javascript:void(0)">POPULAR</a></li>
+        <li><a href="javascript:void(0)">MOST VIEWED</a></li>
+        <li><a href="javascript:void(0)">NEWEST</a></li>
+        <li><a href="javascript:void(0)">RANDOM</a></li>
+        <li class="d-md-none">
+          <a href="javascript:void(0)"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- sub-bar section start end  -->
 
     <!-- hero section start  -->
     <main>
@@ -58,12 +64,12 @@
         <div class="container">
           <div class="hero-content">
             <div class="row">
-              <div class="col-6 col-lg-12">
+              <div class="col-6 col-md-12">
                 <div class="shoes-img">
                   <img src="./images/2.jpg" alt="shoes" />
                 </div>
               </div>
-              <div class="col-6 col-lg-12 text-align-center">
+              <div class="col-6 col-md-12 text-align-center">
                 <div class="content">
                   <h2>Hiroshi Fijiwara's <br> X Nike</h2>
                   <h4>
@@ -80,32 +86,33 @@
         </div>
       </section>
 
+      <!-- products section start  -->
       <section class="products">
         <div class="container">
             <div class="products-content text-align-center">
                 <h2>Other Great Shoes</h2>
                 <h4>Each Shoes is based off of a similar aesthectic as well as <br> being tailored to your general taste</h4>
                 <div class="row">
-                    <div class="col-4 col-lg-12">
+                    <div class="col-4 col-md-12">
                         <div class="product-info">
-                            <img src="./images/products/4.jpg" alt="shoes">
-                            <h1>Nike Dunk Low Retro</h1>
+                            <img src="./images/products/1.png" alt="shoes">
+                            <h1>Nike Air Max Solo</h1>
                             <h4>24 left in Stock</h4>
                             <h2>$120</h2>
                         </div>
                     </div>
-                    <div class="col-4 col-lg-12">
+                    <div class="col-4 col-md-12">
                         <div class="product-info">
-                            <img src="./images/products/5.jpg" alt="shoes">
-                            <h1>Nike Dunk Low Retro SE</h1>
+                            <img src="./images/products/2.png" alt="shoes">
+                            <h1>Nike Air Max 90 G</h1>
                             <h4>10 left in Stock</h4>
                             <h2>$10</h2>
                         </div>
                     </div>
-                    <div class="col-4 col-lg-12">
-                        <div class="product-info">
-                            <img src="./images/products/6.jpg" alt="shoes">
-                            <h1>Nike Court Vison Low</h1>
+                    <div class="col-4 col-md-12">
+                        <div class="product-info mg-b">
+                            <img src="./images/products/3.png" alt="shoes">
+                            <h1>Nike Air Max Phantom</h1>
                             <h4>48 left in Stock</h4>
                             <h2>$95</h2>
                         </div>
@@ -114,24 +121,25 @@
                 <h3>Want to Change Your Prefences?<h3>
             </div>
         </div>
-
+      <!-- products section end -->
+         
       </section>
     </main>
 
-    <!-- hero section end  -->
+    <!-- hero section end -->
 
     <!-- footer section start  -->
     <footer>
         <div class="container ">
-            <div class="footer-content  d-flex align-items-center justify-content-around w-100">
+            <div class="footer-content d-flex align-items-center justify-content-between w-100">
                 <h3>copyright © all rights reserved</h3>
-                <ul class="d-flex col-lg-12">
+                <ul class="d-flex col-md-12">
                     <li><a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a href="javascript:void(0)"><i class="fa-brands fa-facebook"></i></a></li>
                     <li><a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a></li>
                     <li><a href="javascript:void(0)"><i class="fa-brands fa-pinterest"></i></a></li>
                 </ul>
-                <ul class="d-flex col-lg-12">
+                <ul class="d-flex col-md-12">
                     <li><a href="javascript:void(0)">HELP / CUSTOMISE SERVICE</a></li>
                 </ul>
             </div>

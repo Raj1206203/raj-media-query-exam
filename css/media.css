@@ -23,9 +23,6 @@
     .container{
         min-width:  960px;
     }
-    .col-lg-12{
-        width: 100%;
-    }
     .d-lg-none{
         display: none;
     }
@@ -42,12 +39,15 @@
     .container{
         min-width:  720px;
     }
-    .d-md-none{
-        display: none;
+    .col-md-12{
+        width: 100%;
     }
     .d-md-block{
         display: block;
-        margin-right: 15px;
+        padding: 15px;
+    }
+    .d-md-none{
+        display: none;
     }
 }
 
