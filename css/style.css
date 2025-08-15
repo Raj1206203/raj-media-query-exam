@@ -118,8 +118,14 @@ header .navbar .gender li a {
     margin: 10px;
 }
 
+header .navbar .gender li:hover a{
+    color: #e41956;
+    transition: all 0.3sec ease;
+} 
+
 header .navbar ul li:hover a{
     color: var(--text-white--);
+    transition: all 0.3sec ease;
 }
 .sub-bar{ 
     background-color: var(--text-white--);
@@ -129,6 +135,10 @@ header .navbar ul li:hover a{
 }
 .sub-bar ul li a{
     margin: 15px;
+}
+.sub-bar ul li:hover a{
+    color: var(--text-blue--);
+    transition: all 0.3sec ease;
 }
 .sub-bar ul li a .fa-solid{
     position: absolute;

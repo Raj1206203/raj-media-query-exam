@@ -32,6 +32,10 @@
     .justify-lg-content-between{
         justify-content: space-between;
     }
+    body{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
 }
 
 /* md  */
@@ -49,6 +53,15 @@
     .d-md-none{
         display: none;
     }
+    body{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    .hero{
+        background-color: rgb(209, 208, 206);
+    }
+
+
 }
 
 /* sm  */
